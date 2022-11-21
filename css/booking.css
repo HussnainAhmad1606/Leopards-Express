@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding: 0;
+  
+
+}
+body{
+    background-image: linear-gradient(to right, #0583F2,#021373);
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: white;
+    width: 500px;
+    height: 480px;
+   
+}
+
+main section h1{
+    font-size: 25px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+
+
+.from{
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.to{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.date{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.sex{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mobile{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 80%;
+    padding: 5px;
+    background-color: #00b894;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-top: 5px;
+    transition: all 1.5s ease;
+
+}
+.btn:hover{
+    background-color: rgb(81, 25, 236);
+    
+}
